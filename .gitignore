@@ -1,0 +1,49 @@
+# Ignore dataset
+data/
+data/*
+
+# But keep README inside data folder
+!data/README.md
+
+# Ignore model checkpoints
+checkpoints/
+checkpoints/*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large files
+*.pth
+*.pt
+*.ckpt
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Misc
+*.zip
